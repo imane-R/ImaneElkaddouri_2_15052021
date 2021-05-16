@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body
+{
+    background-color: #ffffff;
+    font-family:Raleway ;
+}
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+
+#logo_nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 50px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;  
+}
+nav li
+{
+    margin-right: 15px;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+nav a:hover
+{
+    color:  #0065FC;
+}
+#input_button
+{
+    display: flex;
+}
+.fas
+{
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #1b1414;   
+}
+    
+#search_input
+{ 
+    padding: 10px 15px;
+    font-size: 20px;
+    border-right: none;
+    border-left: none;
+    border-color: #F2F2F2;
+}
+
+#search_button
+{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #0065FC;
+    color: #ffffff;
+    background-color: #0065FC;
+}
+#Filters
+{
+    display: flex;
+    justify-content: space-between;
+}
+.filter_button
+{
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: #0065FC; 
+}

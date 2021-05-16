@@ -2,42 +2,47 @@
 <html>
     <head>
         <meta charset="uft-8">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/d31ea33e3b.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
     <body>
-        <!-- Header -->
+        <div id="bloc_page">
+            <!-- Header -->
     <header>
-        <div id="logo">
-            <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
+        <div id="logo_nav">
+            <div id="logo">
+                <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
-            </ul>
-        </nav>
+       
            
     </header>
        
        
     <!-- Section 1 -->
     <section id="section_one">
-        <h1>votre hébergement pour des vacances de rêve</h1>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <div id="input_button">
-            <input type="text" id="villeEtPays" name="villeEtPays" required>
-            <input class="favorite styled" type="button" value="Rechercher">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" id="search_input" name="villeEtPays" value="Marseille,france">
+            <input type="button" id="search_button" value="Rechercher">
         </div>
-        <nav id="Filters">
+        <!--div id="Filters">
             <h4>Filters</h4>
-            <ul>
-                <il><a href="#">Économique</a></il>
-                <il><a href="#">Familial</a></il>
-                <il><a href="#">Romantique</a></il>
-                <il><a href="#">Animaux autorisés</a></il>
-            </ul>
-        </nav>
+                <input type="button" class="filter_button" value="Économique">
+                <input type="button" class="filter_button" value="Familial">
+                <input type="button" class="filter_button" value="Romantique">
+                <input type="button" class="filter_button" value="Animaux autorisés">
+        </div-->
         <p>Plus de 500 logement sont disponibles dans cette ville</p>
 
     </section>
@@ -149,6 +154,7 @@
             <p>Nous contacter</p>
         </div>
     </footer>
+    </div> 
 
     </body>
 </html>
