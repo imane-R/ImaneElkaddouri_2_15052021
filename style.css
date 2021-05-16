@@ -7,7 +7,7 @@ body
 }
 #bloc_page
 {
-    width: 1000px;
+    width: auto;
     margin: auto;
 }
 
@@ -45,11 +45,14 @@ nav a:hover
 {
     color:  #0065FC;
 }
+
+
+
 #input_button
 {
     display: flex;
 }
-.fas
+.fa-map-marker-alt
 {
     padding: 10px 15px;
     background-color: #F2F2F2;
@@ -65,6 +68,7 @@ nav a:hover
     font-size: 20px;
     border-right: none;
     border-left: none;
+    border-top-style: outset;
     border-color: #F2F2F2;
 }
 
@@ -81,12 +85,106 @@ nav a:hover
 #Filters
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    position: relative;
 }
+
 .filter_button
 {
-    padding: 5px 5px;
-    font-size: 20px;
-    border-radius: 30px;
-    border-color: #0065FC; 
+
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #F2F2F2;
 }
+.fa-child
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;
+
+    
+}
+.fa-money-bill-wave
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%; 
+}
+.fa-heart
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;    
+}
+.fa-dog
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;    
+}
+
+
+
+#listHebergement
+{
+  border-radius: 5%;
+  height:627px ;
+  width: 880px;
+  padding: 15px;
+  background-color: #F2F2F2;  
+}
+.lineheberg
+{
+    display: flex;
+    justify-content: space-between;
+}
+.photoheberg
+{
+    height: 112px;
+    width: 233px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cartHebergement
+{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.fa-star
+{
+    color: #0065FC;
+}
+#populaires
+{
+    position: relative;
+    border-radius: 5%;
+    height:627px ;
+    width: 419px;
+    padding: 15px;
+    background-color: #F2F2F2;
+} 
+.photoAside
+{
+    height:132px ;
+    width: 129px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.cartaside
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.description
+{
+    padding-left: 15px
+}
+
+
