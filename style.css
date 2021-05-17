@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body
+{
+    background-color: #ffffff;
+    font-family:Raleway ;
+}
+#bloc_page
+{
+    width: auto;
+    margin: auto;
+}
+
+#logo_nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 50px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;  
+}
+nav li
+{
+    margin-right: 15px;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+nav a:hover
+{
+    color:  #0065FC;
+}
+
+
+
+#input_button
+{
+    display: flex;
+}
+.fa-map-marker-alt
+{
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #1b1414;   
+}
+    
+#search_input
+{ 
+    padding: 10px 15px;
+    font-size: 20px;
+    border-right: none;
+    border-left: none;
+    border-top-style: outset;
+    border-color: #F2F2F2;
+}
+
+#search_button
+{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #0065FC;
+    color: #ffffff;
+    background-color: #0065FC;
+}
+#Filters
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.filter_button
+{
+
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #F2F2F2;
+}
+.fa-child
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;
+
+    
+}
+.fa-money-bill-wave
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%; 
+}
+.fa-heart
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;    
+}
+.fa-dog
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 100%;    
+}
+
+
+
+#listHebergement
+{
+  border-radius: 5%;
+  height:627px ;
+  width: 880px;
+  padding: 15px;
+  background-color: #F2F2F2;  
+}
+.lineheberg
+{
+    display: flex;
+    justify-content: space-between;
+}
+.photoheberg
+{
+    height: 112px;
+    width: 233px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cartHebergement
+{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.fa-star
+{
+    color: #0065FC;
+}
+#populaires
+{
+    position: relative;
+    border-radius: 5%;
+    height:627px ;
+    width: 419px;
+    padding: 15px;
+    background-color: #F2F2F2;
+} 
+.photoAside
+{
+    height:132px ;
+    width: 129px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.cartaside
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.description
+{
+    padding-left: 15px
+}
+
+
