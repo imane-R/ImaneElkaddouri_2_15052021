@@ -7,7 +7,7 @@ body
 }
 #bloc_page
 {
-    width: auto;
+    width: 98%;
     margin: auto;
 }
 
@@ -78,6 +78,7 @@ nav a:hover
     font-size: 20px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-style: solid;
     border-color: #0065FC;
     color: #ffffff;
     background-color: #0065FC;
@@ -85,64 +86,72 @@ nav a:hover
 #Filters
 {
     display: flex;
-    justify-content: space-evenly;
     position: relative;
+    margin-left: 10px;
+    margin: 10px 10px ;
 }
 
 .filter_button
 {
-
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 50px;
+    border-style: solid;
     background-color: #ffffff;
-    border-color: #F2F2F2;
+    border-color: #F2F2F2; 
+    padding: 7px 17px;
+    padding-left: 43px;
+    margin-top: 14px;
+    margin-left: 20px;
+   
+   
 }
-.fa-child
+.filter_button:hover
+{
+background-color: #DEEBFF;
+} 
+
+.add-on
 {
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 100%;
-
-    
+    padding: 11px 13px;
+    font-size: x-small;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 20px; 
+   
 }
-.fa-money-bill-wave
+
+
+#section_two
 {
-    background-color: #DEEBFF;
-    color: #0065FC;
-    border-radius: 100%; 
+   display: flex;
+   flex-flow: row-reverse;
+   justify-content: space-between;
 }
-.fa-heart
+
+#hebergements
 {
-    background-color: #DEEBFF;
-    color: #0065FC;
-    border-radius: 100%;    
+    border-radius: 15px;
+    max-width: 800px;
+    padding: 15px;
+    padding-left: 40px;
+    background-color: #F2F2F2; 
 }
-.fa-dog
-{
-    background-color: #DEEBFF;
-    color: #0065FC;
-    border-radius: 100%;    
-}
-
-
-
 #listHebergement
 {
-  border-radius: 5%;
-  height:627px ;
-  width: 880px;
-  padding: 15px;
-  background-color: #F2F2F2;  
+  display: flex;
+  flex-wrap: wrap;
+   
 }
 .lineheberg
 {
     display: flex;
     justify-content: space-between;
 }
-.photoheberg
+.photoBordertop
 {
-    height: 112px;
-    width: 233px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -151,6 +160,7 @@ nav a:hover
     border-radius: 16px;
     background-color: #ffffff;
     padding: 5px;
+    margin: auto;
     margin-bottom: 20px;
 }
 .fa-star
@@ -160,16 +170,25 @@ nav a:hover
 #populaires
 {
     position: relative;
-    border-radius: 5%;
-    height:627px ;
-    width: 419px;
+    border-radius: 15px;
+    max-width: 320px;
+    min-width: 300px;
     padding: 15px;
     background-color: #F2F2F2;
 } 
+#title-icone
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chart-line
+{
+    font-size: larger;
+    padding-top: 20px;
+}
 .photoAside
 {
-    height:132px ;
-    width: 129px;
+    width: 119px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -187,4 +206,41 @@ nav a:hover
     padding-left: 15px
 }
 
+
+#activities
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cartActivitie
+{
+    border-radius: 15px;
+    box-shadow: 1px 5px 6px grey;
+}
+.activiteTitle
+{
+    padding-left: 15px;
+}
+
+.acticites2and4Column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer
+{
+    display: flex;
+    border: #F2F2F2;
+    background-color: #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footerlist {
+    padding-right: 90px;
+}
 
