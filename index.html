@@ -12,7 +12,7 @@
     <div id="bloc_page">
         <!-- Header -->
         <header>
-            <div id="logo_nav">
+            <div id="logo_nav_desktop">
                 <div id="logo">
                     <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
                 </div>
@@ -20,10 +20,26 @@
                     <ul>
                         <li><a href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
-                        <li><a href="#">S'inscrire</a></li>
+                        <li id="logIn"><a href="#">S'inscrire</a></li>
                     </ul>
                 </nav>
             </div>
+            <div id="logo_nav_mobile">
+                <div id="logo">
+                    <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
+                </div>
+                <nav>
+                    <ul>
+                        <li class="singUp"><a href="#">S'inscrire</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="nav_mobile">
+                <ul>
+                    <li><a href="#">Hébergements</a></li>
+                    <li><a href="#">Activités</a></li>
+                </ul>
+            </nav>
         </header>
         <!-- Section 1 -->
         <section id="section_one">
@@ -32,7 +48,9 @@
             <div id="input_button">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" id="search_input" name="villeEtPays" value="Marseille,france">
-                <input type="button" id="search_button" value="Rechercher">
+                <button type="button" id="search_button">Rechercher</button>
+                <button type="button" id="searchIcon_button"><i class="fas fa-search"></i></button>
+                
             </div>
             <div id="Filters">
                 <h4>Filters</h4>
@@ -114,71 +132,88 @@
                 <div id="listHebergement">
 
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement1.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement1.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement1" width="230px" height="110px">
-                        <h3>Auberge la Cannebière</h3>
-                        <p>nuit a partir de 25€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Auberge la Cannebière</h3>
+                                <p>nuit a partir de 25€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
                     </div>
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement2.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement2.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement2" width="230px" height="110px">
-                        <h3>Hôtel du port</h3>
-                        <p>nuit a partir de 52€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Hôtel du port</h3>
+                                <p>nuit a partir de 52€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
                     </div>
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement3.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement3.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement3" width="230px" height="110px">
-                        <h3>Hôtel les mouettes</h3>
-                        <p>nuit a partir de 76€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Hôtel les mouettes</h3>
+                                <p>nuit a partir de 76€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
                     </div>
 
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement4.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement4.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement4" width="230px" height="110px">
-                        <h3>Hôtel de la mer</h3>
-                        <p>nuit a partir de 46€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Hôtel de la mer</h3>
+                                <p>nuit a partir de 46€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
                     </div>
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement5.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement5.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement5" width="230px" height="110px">
-                        <h3>Auberge le panier</h3>
-                        <p>nuit a partir de 23€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Auberge le panier</h3>
+                                <p>nuit a partir de 23€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
                     </div>
                     <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement6.jpg" class="photoBordertop"
+                        <img src="images/hebergements/4_small/hebergement6.jpg" class="photo-hebergement-activitie photoMediaQuery"
                             alt="hebergement6" width="230px" height="110px">
-                        <h3>Hôtel chez Amina</h3>
-                        <p>nuit a partir de 96€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                            <div class="hebergement-description">
+                                <h3>Hôtel chez Amina</h3>
+                                <p>nuit a partir de 96€</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        
                     </div>
                 </div>
                 <p>Afficher plus</p>
@@ -191,37 +226,37 @@
             <h1>Activités à Marseille</h1>
             <div id="activities">
                 <div class="cartActivitie">
-                    <img src="images/activites/4_small/activites1.jpg" class="photoBordertop" alt="activites1"
-                        width="300px" height="390px">
+                    <img src="images/activites/4_small/activites1.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites1"
+                        width="250px" height="390px">
                     <p class="activiteTitle">veux port</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
-                        <img src="images/activites/4_small/activites2.jpg" class="photoBordertop" alt="activites2"
-                            width="300px" height="180px">
+                        <img src="images/activites/4_small/activites2.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites2"
+                            width="250px" height="180px">
                         <p class="activiteTitle">Fort de Pomègues</p>
                     </div>
                     <div class="cartActivitie">
-                        <img src="images/activites/4_small/activites3.jpg" class="photoBordertop" alt="activites3"
-                            width="300px" height="115px">
+                        <img src="images/activites/4_small/activites3.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites3"
+                            width="250px" height="115px">
                         <p class="activiteTitle">Îles du Frioul</p>
                     </div>
                 </div>
 
                 <div class="cartActivitie">
-                    <img src="images/activites/4_small/activites4.jpg" class="photoBordertop" alt="activites4"
-                        width="300px" height="390px">
+                    <img src="images/activites/4_small/activites4.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites4"
+                        width="250px" height="390px">
                     <p class="activiteTitle">Parc National des Calanques</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
-                        <img src="images/activites/4_small/activites5.jpg" class="photoBordertop" alt="activites5"
-                            width="300px" height="145px">
+                        <img src="images/activites/4_small/activites5.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites5"
+                            width="250px" height="145px">
                         <p class="activiteTitle">Notre-Dme-de-la-Garde</p>
                     </div>
                     <div class="cartActivitie">
-                        <img src="images/activites/4_small/activites6.jpg" class="photoBordertop" alt="activites6"
-                            width="300px" height="150px">
+                        <img src="images/activites/4_small/activites6.jpg" class="photo-hebergement-activitie photoMediaQuery" alt="activites6"
+                            width="250px" height="150px">
                         <p class="activiteTitle">Parc Longchamp</p>
                     </div>
                 </div>
@@ -231,18 +266,18 @@
         <!-- footer -->
         <footer id="footer">
             <div class="footerlist">
-                <h5>À propos</h5>
+                <h3>À propos</h3>
                 <p>Fonctionnement du site</p>
                 <p>Conditions générale de vente</p>
                 <p>Données et confidentialité</p>
             </div>
             <div class="footerlist">
-                <h5>Nos hébergements</h5>
+                <h3>Nos hébergements</h3>
                 <p>Charte qualité</p>
                 <p>Soumettre votre hôtel</p>
             </div>
             <div class="footerlist">
-                <h5>Assistance</h5>
+                <h3>Assistance</h3>
                 <p>Centre d'aide</p>
                 <p>Nous contacter</p>
             </div>
