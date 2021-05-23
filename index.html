@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="uft-8">
-    <link rel="stylesheet" href="style.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <link rel="stylesheet" href="index.css" />
     <script src="https://kit.fontawesome.com/d31ea33e3b.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -16,13 +17,19 @@
                 <div id="logo">
                     <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
-                        <li id="logIn"><a href="#">S'inscrire</a></li>
-                    </ul>
-                </nav>
+                <div class="nav_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Hébergements</a></li>
+                            <li><a href="#">Activités</a></li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <li class="singUp"><a href="#">S'inscrire</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div id="logo_nav_mobile">
                 <div id="logo">
@@ -46,33 +53,36 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <div id="input_button">
-                <i class="fas fa-map-marker-alt"></i>
+                <img src="icons/map-marker-alt-solid.svg" class=icon-location alt="icon-location">
                 <input type="text" id="search_input" name="villeEtPays" value="Marseille,france">
-                <button type="button" id="search_button">Rechercher</button>
+                <button type="button" id="search_button"><b>Rechercher</b></button>
                 <button type="button" id="searchIcon_button"><i class="fas fa-search"></i></button>
 
             </div>
             <div id="Filters">
-                <h4>Filters</h4>
+                <h3><b>Filters</b></h3>
                 <div class="icon-button">
-                    <span class="icon_filter"><i class="fas fa-money-bill-wave"></i></span>
-                    <input type="button" class="filter_button" value="Économique">
+                    <img src="icons/money-bill-wave-solid.svg" class="icon_filter" alt="money-icon">
+                    <button type="button" class="filter_button"><b>Économique</b></button>
                 </div>
                 <div class="icon-button">
-                    <span class="icon_filter"><i class="fas fa-child"></i></span>
-                    <input type="button" class="filter_button" value="Familial">
+                    <img src="icons/child-solid.svg" class="icon_filter" alt="icon-familial">
+                    <button type="button" class="filter_button"><b>Familial</b></button>
                 </div>
                 <div class="icon-button">
-                    <span class="icon_filter"><i class="fas fa-heart"></i></span>
-                    <input type="button" class="filter_button" value="Romantique">
+                    <img src="icons/heart-solid.svg" class="icon_filter" alt="icon-heart">
+                    <button type="button" class="filter_button"><b>Romantique</b></button>
                 </div>
                 <div class="icon-button">
-                    <span class="icon_filter"><i class="fas fa-dog"></i></span>
-                    <input type="button" class="filter_button" value="Animaux autorisés">
+                    <img src="icons/dog-solid.svg" class="icon_filter" alt="icon-dog">
+                    <button type="button" class="filter_button"><b>Animaux autorisés</b></button>
                 </div>
             </div>
-
-            <p> <i class="fas fa-info-circle"></i> Plus de 500 logement sont disponibles dans cette ville</p>
+            <div id="info">
+                <img src="icons/info-circle-solid.svg"class="icon-info" alt="icon-info">
+                <p> Plus de 500 logement sont disponibles dans cette ville</p>
+            </div>
+            
 
         </section>
 
@@ -81,35 +91,37 @@
             <aside id="populaires">
                 <div id="title-icone">
                     <h1>Les plus populaires</h1>
-                    <i class="fas fa-chart-line"></i>
+                    <img src="icons/chart-line-solid.svg"class="icon-chart" alt="icon-chart">
                 </div>
 
-                <div class="cartaside">
+                <div class="cartaside" >
                     <img src="images/hebergements/4_small/hebergement_populaires1.jpg" class="photoAside"
                         alt="hebergement_populaires1">
                     <div class="description_aside">
                         <h3>Hôtel Le soleil du matin</h3>
-                        <p>nuit a partir de 128€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <p>Nuit a partir de 128€</p>
+                        <div id=stars>
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                        </div>
                     </div>
-
-
                 </div>
                 <div class="cartaside">
                     <img src="images/hebergements/4_small/hebergement_populaires2.jpg" class="photoAside"
                         alt="hebergement_populaires2">
                     <div class="description_aside">
                         <h3>Au coeur de l'eau chambres d'hôtes</h3>
-                        <p>nuit a partir de 73€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <p>Nuit a partir de 73€</p>
+                        <div id=stars>
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                        </div>
                     </div>
 
                 </div>
@@ -118,12 +130,14 @@
                         alt="hebergement_populaires3">
                     <div class="description_aside">
                         <h3>Hôtel Tout bleu et Blanc</h3>
-                        <p>nuit a partir de 68€</p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <p>Nuit a partir de 68€</p>
+                        <div id=stars>
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                        </div>
                     </div>
                 </div>
             </aside>   
@@ -137,12 +151,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Auberge la Cannebière</h3>
-                            <p>nuit a partir de 25€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <p>Nuit a partir de 25€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
 
                     </div>
@@ -152,12 +168,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Hôtel du port</h3>
-                            <p>nuit a partir de 52€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <p>Nuit a partir de 52€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
                     </div>
                     <div class="cartHebergement">
@@ -166,12 +184,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Hôtel les mouettes</h3>
-                            <p>nuit a partir de 76€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <p>Nuit a partir de 76€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
 
                     </div>
@@ -182,12 +202,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Hôtel de la mer</h3>
-                            <p>nuit a partir de 46€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <p>Nuit a partir de 46€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
 
                     </div>
@@ -197,12 +219,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Auberge le panier</h3>
-                            <p>nuit a partir de 23€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <p>Nuit a partir de 23€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid copy.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
 
                     </div>
@@ -212,12 +236,14 @@
                             height="110px">
                         <div class="hebergement-description">
                             <h3>Hôtel chez Amina</h3>
-                            <p>nuit a partir de 96€</p>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <p>Nuit a partir de 96€</p>
+                            <div id=stars>
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                                <img src="icons/star-solid.svg"class="icon-star" alt="icon-star">
+                            </div>
                         </div>
 
                     </div>
