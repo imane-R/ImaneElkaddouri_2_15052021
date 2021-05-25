@@ -117,6 +117,8 @@ h1
 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: -10px;
+    font-size: x-large;
+    font-weight: bolder;
 }
 #input_button
 {
@@ -146,6 +148,7 @@ input[type=text]
 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    font-weight: bold;
 }
 
 #search_button
@@ -165,16 +168,16 @@ input[type=text]
 {
     visibility: hidden;
 }
-h3
-{
-    margin-top: 30px;
-
-}
 #Filters
 {
     display: flex;
     position: relative;
     margin: 10px 0px;
+}
+#section_one #Filters h3
+{
+    font-weight: bolder;
+    margin-top: 30px;
 }
 
 .filter_button
@@ -260,11 +263,23 @@ h3
     border-radius: 15px;
     padding: 15px;
     padding-left: 15px;
+    max-width: 850px;
     background-color: #F2F2F2; 
 }
-#hebergements h1
+#section_two #hebergements h1
 {
+    margin-bottom: 5px;
+    margin-left: 7px;
     padding-left: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#hebergements h4
+{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 23px;
+    margin-top: 35px;
 }
 #listHebergement
 {
@@ -278,7 +293,7 @@ h3
     display: flex;
     justify-content: space-between;
 }
-.photo-hebergement-activitie
+.photo-hebergement
 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -289,25 +304,44 @@ h3
     border-radius: 16px;
     background-color: #ffffff;
     padding: 5px;
-    margin: 20px;
-    margin-bottom: 20px;
+    margin: 18px;
+    margin-bottom: 18px;
     cursor: pointer;
     box-shadow: 1px 5px 6px #b1afaf;
+}
+.cartHebergement .hebergement-description h3
+{
+    margin: 3px 11px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.cartHebergement .hebergement-description p
+{
+    margin: 3px 11px;
+    font-size: small;
+}
+.cartHebergement .hebergement-description #stars
+{
+    margin: 3px 11px;
 }
 .cartaside .description_aside h3
 {
     margin: 4px;
+    font-size: medium;
+    padding-top: 5px;
 }
 .cartaside .description_aside p
 {
     margin: 6px;
     margin-bottom: 40px;
+    font-size: small;
 
 }
 #stars
 {
     display: flex;
     flex-direction: row;
+    padding-top: 6px;
 }
 .icon-star
 {
@@ -319,9 +353,15 @@ h3
     position: relative;
     border-radius: 15px;
     min-width: 325px;
-    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 25px;
     background-color: #F2F2F2;
 } 
+#populaires h1
+{
+    margin-bottom: -4px;
+}
 #title-icone
 {
     display: flex;
@@ -331,13 +371,13 @@ h3
 .icon-chart
 {
     height: 20px;
-    padding-top: 20px;
+    padding-top: 29px;
 }
 .photoAside
 {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    width: 139px;
+    width: 123px;
     height: 132px;
     object-fit: cover;
 
@@ -348,7 +388,7 @@ h3
     flex-direction: row;
     border-radius: 16px;
     background-color: #ffffff;
-    max-width: 350px;
+    max-width: 334px;
     padding: 5px;
     margin-bottom: 35px;
     cursor: pointer;
@@ -356,7 +396,8 @@ h3
 }
 .description_aside
 {
-    padding-left: 15px
+    padding-left: 15px;
+    padding-right: 15px;
 }
 @media all and (max-width: 980px)
 {
@@ -404,18 +445,28 @@ h3
     }
 }
 
-
+#section-three
+{
+    margin: 30px;
+}
+#section-three h1
+{
+    margin-bottom: 20px;
+}
 #activities
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
 }
-
+.photo-activitie
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    width: 90%;
+}
 .cartActivitie
 {
-    border-radius: 15px;
-    box-shadow: 1px 5px 6px #F2F2F2;
     cursor: pointer;
 }
 .activiteTitle
@@ -452,8 +503,6 @@ h3
     {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        justify-content: center;
     }
 }
 #footer
