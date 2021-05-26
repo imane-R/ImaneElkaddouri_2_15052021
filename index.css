@@ -4,13 +4,10 @@ body
 {
     background-color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 0;
 }
 #bloc_page
 {
-    width: 100%;
-    margin: auto;
+    margin: 0 30px;
 }
 
 #logo_nav_desktop
@@ -18,7 +15,7 @@ body
     display: flex;
     justify-content: space-between ;
     align-items: flex-end;
-    margin: 20px 30px
+    margin: 20px
 }
 #logo_nav_mobile
 {
@@ -29,6 +26,7 @@ body
 {
     width: 100px;
     height: 50px;
+    margin-left: -23px;
 }
 .nav_menu
 {
@@ -111,7 +109,6 @@ nav a:hover
 
 #section_one
 {
-    margin: 30px
 }
 h1
 {
@@ -174,10 +171,11 @@ input[type=text]
     position: relative;
     margin: 10px 0px;
 }
-#section_one #Filters h3
+#section_one #Filters h2
 {
-    font-weight: bolder;
-    margin-top: 30px;
+    font-weight: bold;
+    margin-top: 27px;
+    font-size: large;
 }
 
 .filter_button
@@ -253,7 +251,6 @@ input[type=text]
 
 #section_two
 {
-    margin: 30px;
    display: flex;
    flex-flow: row-reverse;
 }
@@ -445,10 +442,6 @@ input[type=text]
     }
 }
 
-#section-three
-{
-    margin: 30px;
-}
 #section-three h1
 {
     margin-bottom: 20px;
@@ -457,21 +450,26 @@ input[type=text]
 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 45px;
 }
 .photo-activitie
 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-    width: 90%;
+    width: 100%;
 }
 .cartActivitie
 {
+    width: 300px;
     cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 5px 6px #f2f2f2;
 }
 .activiteTitle
 {
-    padding-left: 15px;
+    padding-left: 20px;
+    font-weight: bold;
 }
 
 .acticites2and4Column
@@ -479,8 +477,11 @@ input[type=text]
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 42px;
+}
+.activite-4
+{
+    margin-left: 42px;  
 }
 
 @media all and (max-width: 980px)
@@ -511,12 +512,11 @@ input[type=text]
     border: #F2F2F2;
     background-color: #F2F2F2;
     padding-left: 15px;
-    padding-right: 15px;
 }
 
 .footerlist 
 {
-    padding-right: 150px;
+    padding-right: 250px;
 }
 @media all and (max-width: 980px)
 {
