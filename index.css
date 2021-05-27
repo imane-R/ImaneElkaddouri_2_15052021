@@ -57,7 +57,6 @@ nav a
 h1
 {
     font-family: 'Raleway', sans-serif;
-    margin-bottom: -10px;
     font-size: x-large;
     font-weight: bolder;
 }
@@ -112,6 +111,7 @@ input[type=text]
 #Filters
 {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     margin: 10px 0px;
 }
@@ -166,14 +166,6 @@ input[type=text]
     margin-right: 10px;
     height: 20px;
 }
-#hebergements
-{
-    border-radius: 15px;
-    padding: 15px;
-    padding-left: 15px;
-    max-width: 850px;
-    background-color: #F2F2F2; 
-}
 
 #hebergements h4
 {
@@ -186,6 +178,7 @@ input[type=text]
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
+    height: 110px;
 }
 .cartHebergement
 {
@@ -281,11 +274,6 @@ input[type=text]
 {
     margin-bottom: 20px;
 }
-#activities
-{
-    display: flex;
-    margin-bottom: 45px;
-}
 .photo-activitie
 {
     border-top-left-radius: 15px;
@@ -303,18 +291,17 @@ input[type=text]
 {
     padding-left: 20px;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 #footer
 {
     display: flex;
+    justify-content: space-around;
     border: #F2F2F2;
     background-color: #F2F2F2;
     padding-left: 15px;
 }
 
-.footerlist 
-{
-    padding-right: 250px;
-}
+
 

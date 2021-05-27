@@ -41,6 +41,11 @@
         border-bottom: solid 3px #0065FC; 
         
     }
+    #input_button
+    {
+        display: flex;
+        margin-top: 35px;
+    }
 
     #desktop-filters-title
     {
@@ -90,12 +95,16 @@
         padding-right: 15px;
         padding-bottom: 15px;
     }
-
+    .cartaside
+    {
+        margin-bottom: 15px;
+    }
     #hebergements
     {
         background-color: #ffffff;
         display: flex;
         flex-direction: column;
+        margin-left: 5px;
     }
     #section_two #hebergements h1
     {
@@ -123,10 +132,13 @@
     {
         padding-left: 15px ;
         padding-bottom: 15px;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-bottom: 16px
     }
     #section-three
     {
-        margin-left: 15px;
+        margin-left: 5px;
     }
 
     .photoMediaQuery_activite
@@ -161,5 +173,9 @@
    {
        display: flex;
        flex-direction: column;
+   }
+   #footer .footerlist p
+   {
+       font-size: small;
    }
    

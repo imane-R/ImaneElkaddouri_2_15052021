@@ -1,17 +1,37 @@
+
+
+#hebergements 
+{
+    padding: 15px;
+}
 .photoMediaQuery_activite
 {
-    height: 150px;  
+    height: 200px;  
 } 
-.cartActivitie
-{
-    border-radius: 15px;
-    box-shadow: 1px 5px 6px #F2F2F2;
-    margin-bottom: 25px;
-    padding-bottom: 5px;
-    cursor: pointer
-}
 #activities
 {
+    margin-bottom: 45px;
+}
+.activiteTitle 
+{
+    padding-bottom: 15px;
+}
+.cartActivitie
+{
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 5px 6px #f2f2f2;
+}
+.photo-activitie
+{
+    height: 200px;
+}
+.photo-hebergement
+{
+    height: 200px;
+}
+#footer
+{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }

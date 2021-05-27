@@ -44,6 +44,14 @@ nav li
    display: flex;
    flex-flow: row-reverse;
 }
+#hebergements
+{
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 15px;
+    max-width: 850px;
+    background-color: #F2F2F2; 
+}
 #section_two #hebergements h1
 {
     margin-bottom: 5px;
@@ -65,10 +73,18 @@ nav li
 .cartHebergement
 {
     margin: 18px;
+    max-width: 235px;
 }
 #hebergements h4 
 {
     margin-left: 23px;
+}
+.photo-hebergement
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 110px;
 }
 .acticites2and4Column 
 {
@@ -77,11 +93,21 @@ nav li
     justify-content: space-between;
     margin-left: 42px;
 }
+#activities
+{
+    display: flex;
+    margin-bottom: 45px;
+}
 .activite-4
 {
     margin-left: 42px;  
 }
+
 .cartActivitie
 {
     width: 300px;
+}
+.footerlist 
+{
+    padding-right: 250px;
 }
