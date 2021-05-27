@@ -1,0 +1,17 @@
+.photoMediaQuery_activite
+{
+    height: 150px;  
+} 
+.cartActivitie
+{
+    border-radius: 15px;
+    box-shadow: 1px 5px 6px #F2F2F2;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    cursor: pointer
+}
+#activities
+{
+    display: flex;
+    flex-direction: row;
+}

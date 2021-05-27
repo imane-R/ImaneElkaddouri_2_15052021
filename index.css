@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 body
 {
     background-color: #ffffff;
     font-family: 'Raleway', sans-serif;
-}
-#bloc_page
-{
-    margin: 0 30px;
 }
 
 #logo_nav_desktop
@@ -25,8 +21,7 @@ body
 #logo img
 {
     width: 100px;
-    height: 50px;
-    margin-left: -23px;
+    height: 45px;
 }
 .nav_menu
 {
@@ -35,19 +30,15 @@ body
 nav ul
 {
     list-style-type: none;
-    display: flex;  
-}
-nav li
-{
-    margin-right: 15px;
+    display: flex; 
 }
 nav a
 {
-    font-size: 1.3em;
+    font-size: medium;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 25px;
+    margin: 40px;
 }
 #logo_nav_desktop nav .singUp a
 {
@@ -55,60 +46,13 @@ nav a
     margin-left: -28px;
 }
 
-nav a:hover
-{
-    color:  #0065FC;
-    padding-top: 20px;
-    border-top: 2px solid #0065FC;
-    
-}
 #nav_mobile
 {
     display: none;
 }
-@media all and (max-width: 980px)
+#smartphone-filtes-title
 {
-    #bloc_page
-    {
-        width: 100%;
-    }
-    #logo_nav_desktop
-    {
-       display: none; 
-    }
-    #logo_nav_mobile
-    {
-        display: flex;
-        justify-content: space-between;
-
-    }
-    #logo_nav_mobile nav .singUp a
-    {
-        color: #0065FC;
-        border: none;
-    }
-    #nav_mobile
-    {
-        display:flex;
-        border-bottom: solid 3px #F2F2F2;
-        justify-content: space-between; 
-
-    }
-    #nav_mobile a:hover
-    {
-        color:  #0065FC;
-        border-top: none;
-        border-bottom: solid 3px #0065FC; 
-        
-    }
-    
-
-
-}
-
-
-#section_one
-{
+    visibility: hidden;
 }
 h1
 {
@@ -123,7 +67,7 @@ h1
 }
 .icon-location
 {
-    padding: 14px 17px;
+    padding: 15px 22px;
     background-color: #F2F2F2;
     height: 20px;
     border-top-left-radius: 15px;
@@ -189,7 +133,8 @@ input[type=text]
     padding-left: 50px;
     padding-right: 25px;
     margin-top: 18px;
-    margin-left: 32px;   
+    margin-left: 32px;
+    white-space: nowrap; 
 }
 .filter_button:hover
 {
@@ -213,6 +158,7 @@ input[type=text]
 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 .icon-info
 {
@@ -220,41 +166,6 @@ input[type=text]
     margin-right: 10px;
     height: 20px;
 }
-@media all and (max-width: 980px)
-{
-    #search_button
-    {
-        visibility: hidden;
-    }
-    #searchIcon_button
-    {
-        visibility: visible;
-        font-size: 20px;
-        border-radius: 15px;
-        border-style: solid;
-        border-color: #0065FC;
-        color: #ffffff;
-        background-color: #0065FC;
-        display: block;
-        padding: 10px;
-        margin-left: -152px;
-        
-    }
-    #Filters
-    {
-        flex-wrap: wrap;
-    }
-}
-
-
-
-
-#section_two
-{
-   display: flex;
-   flex-flow: row-reverse;
-}
-
 #hebergements
 {
     border-radius: 15px;
@@ -263,32 +174,12 @@ input[type=text]
     max-width: 850px;
     background-color: #F2F2F2; 
 }
-#section_two #hebergements h1
-{
-    margin-bottom: 5px;
-    margin-left: 7px;
-    padding-left: 15px;
-    font-size: x-large;
-    font-weight: bolder;
-}
+
 #hebergements h4
 {
     font-size: larger;
     font-weight: bold;
-    margin-left: 23px;
     margin-top: 35px;
-}
-#listHebergement
-{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 943px;
-   
-}
-.lineheberg
-{
-    display: flex;
-    justify-content: space-between;
 }
 .photo-hebergement
 {
@@ -301,7 +192,6 @@ input[type=text]
     border-radius: 16px;
     background-color: #ffffff;
     padding: 5px;
-    margin: 18px;
     margin-bottom: 18px;
     cursor: pointer;
     box-shadow: 1px 5px 6px #b1afaf;
@@ -345,16 +235,7 @@ input[type=text]
     height: 11px;
 
 }
-#populaires
-{
-    position: relative;
-    border-radius: 15px;
-    min-width: 325px;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin-left: 25px;
-    background-color: #F2F2F2;
-} 
+
 #populaires h1
 {
     margin-bottom: -4px;
@@ -385,7 +266,6 @@ input[type=text]
     flex-direction: row;
     border-radius: 16px;
     background-color: #ffffff;
-    max-width: 334px;
     padding: 5px;
     margin-bottom: 35px;
     cursor: pointer;
@@ -396,51 +276,6 @@ input[type=text]
     padding-left: 15px;
     padding-right: 15px;
 }
-@media all and (max-width: 980px)
-{
-    #section_two
-    {
-        flex-wrap: wrap;
-    }
-    #populaires
-    {
-        border-radius: none;
-        width: 100%;
-        background-color: #F2F2F2;
-    }
-
-    #hebergements
-    {
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        padding-left: 40px; 
-    }
-    .cartHebergement
-    {
-        display: flex;
-        flex-direction: column;
-        border-radius: 15px;
-        background-color: #ffffff;
-        padding: 0px;
-        margin: auto;
-        margin-bottom: 20px;
-        cursor: pointer;
-        box-shadow: 1px 5px 6px #F2F2F2;
-    }
-    .photoMediaQuery
-    {
-      height: 140px; 
-      width: 280px; 
-      object-fit: cover;
-    } 
-    .hebergement-description
-    {
-        padding-left: 15px ;
-        padding-bottom: 15px;
-    }
-}
 
 #section-three h1
 {
@@ -449,7 +284,6 @@ input[type=text]
 #activities
 {
     display: flex;
-    flex-direction: row;
     margin-bottom: 45px;
 }
 .photo-activitie
@@ -461,7 +295,6 @@ input[type=text]
 }
 .cartActivitie
 {
-    width: 300px;
     cursor: pointer;
     border-radius: 15px;
     box-shadow: 1px 5px 6px #f2f2f2;
@@ -472,40 +305,6 @@ input[type=text]
     font-weight: bold;
 }
 
-.acticites2and4Column
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 42px;
-}
-.activite-4
-{
-    margin-left: 42px;  
-}
-
-@media all and (max-width: 980px)
-{
-    .photoMediaQuery
-    {
-        height: 140px; 
-        width: 350px; 
-    } 
-    .cartActivitie
-    {
-        border-radius: 15px;
-        box-shadow: 1px 5px 6px #F2F2F2;
-        margin: auto;
-        margin-bottom: 20px;
-        cursor: pointer;
-        max-width: 350px
-    }
-    #activities
-    {
-        display: flex;
-        flex-direction: column;
-    }
-}
 #footer
 {
     display: flex;
@@ -517,18 +316,5 @@ input[type=text]
 .footerlist 
 {
     padding-right: 250px;
-}
-@media all and (max-width: 980px)
-{
-   #footer
-   {
-       display: flex;
-       flex-direction: column;
-       width: 100%;
-   } 
-   .footerlist 
-   {
-    padding: 15px;
-   }
 }
 

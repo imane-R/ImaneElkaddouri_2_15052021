@@ -5,7 +5,10 @@
     <meta charset="uft-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <link rel="stylesheet" href="index.css" />
-    <script src="https://kit.fontawesome.com/d31ea33e3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="index_desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="index_smartphone.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="index_tablette.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Reservia</title>
 </head>
 
@@ -35,7 +38,7 @@
                 <div id="logo">
                     <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
                 </div>
-                <nav>
+                <nav id="singUp">
                     <ul>
                         <li class="singUp"><a href="#">S'inscrire</a></li>
                     </ul>
@@ -43,8 +46,8 @@
             </div>
             <nav id="nav_mobile">
                 <ul>
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activities">Activités</a></li>
+                    <li><a href="#hebergements" class="nav-mobile-a">Hébergements</a></li>
+                    <li><a href="#activities" class="nav-mobile-a">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,11 +59,12 @@
                 <img src="icons/map-marker-alt-solid.svg" class=icon-location alt="icon-location">
                 <input type="text" id="search_input" name="villeEtPays" value="Marseille,France">
                 <button type="button" id="search_button"><b>Rechercher</b></button>
-                <button type="button" id="searchIcon_button"><i class="fas fa-search"></i></button>
+                <button type="button" id="searchIcon_button"></button>
 
             </div>
+            <h2 id="smartphone-filtes-title">Filters</h2>
             <div id="Filters">
-                <h2>Filters</h2>
+                <h2 id="desktop-filters-title">Filters</h2>
                 <div class="icon-button">
                     <img src="icons/money-bill-wave-solid.svg" class="icon_filter" alt="money-icon">
                     <button type="button" class="filter_button"><b>Économique</b></button>
@@ -82,8 +86,6 @@
                 <img src="icons/info-circle-solid.svg" class="icon-info" alt="icon-info">
                 <p> Plus de 500 logement sont disponibles dans cette ville</p>
             </div>
-
-
         </section>
 
         <!-- Section 2 -->
@@ -93,7 +95,6 @@
                     <h1>Les plus populaires</h1>
                     <img src="icons/chart-line-solid.svg" class="icon-chart" alt="icon-chart">
                 </div>
-
                 <div class="cartaside">
                     <img src="images/hebergements/4_small/hebergement_populaires1.jpg" class="photoAside"
                         alt="hebergement_populaires1">
@@ -123,7 +124,6 @@
                             <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
                         </div>
                     </div>
-
                 </div>
                 <div class="cartaside">
                     <img src="images/hebergements/4_small/hebergement_populaires3.jpg" class="photoAside"
@@ -140,187 +140,173 @@
                         </div>
                     </div>
                 </div>
-            </aside>   
-            <section id=hebergements>
-                <h1>Hébergements a Marseille</h1>
-                <div id="listHebergement">
+            </aside>
+            <div class="bloc_page_smarphone">
+                <section id=hebergements>
+                    <h1>Hébergements a Marseille</h1>
+                    <div id="listHebergement">
 
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement1.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement1" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Auberge la Cannebière</h3>
-                            <p>Nuit a partir de 25€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement1.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement1" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Auberge la Cannebière</h3>
+                                <p>Nuit a partir de 25€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement2.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement2" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Hôtel du port</h3>
-                            <p>Nuit a partir de 52€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement2.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement2" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit a partir de 52€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement3.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement3" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Hôtel les mouettes</h3>
+                                <p>Nuit a partir de 76€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement4.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement4" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit a partir de 46€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement5.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement5" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Auberge le panier</h3>
+                                <p>Nuit a partir de 23€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cartHebergement">
+                            <img src="images/hebergements/4_small/hebergement6.jpg"
+                                class="photo-hebergement photoMediaQuery" alt="hebergement6" width="230px"
+                                height="110px">
+                            <div class="hebergement-description">
+                                <h3>Hôtel chez Amina</h3>
+                                <p>Nuit a partir de 96€</p>
+                                <div id=stars>
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                    <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement3.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement3" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Hôtel les mouettes</h3>
-                            <p>Nuit a partir de 76€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement4.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement4" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Hôtel de la mer</h3>
-                            <p>Nuit a partir de 46€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement5.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement5" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Auberge le panier</h3>
-                            <p>Nuit a partir de 23€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid copy.svg" class="icon-star" alt="icon-star">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="cartHebergement">
-                        <img src="images/hebergements/4_small/hebergement6.jpg"
-                            class="photo-hebergement photoMediaQuery" alt="hebergement6" width="230px"
-                            height="110px">
-                        <div class="hebergement-description">
-                            <h3>Hôtel chez Amina</h3>
-                            <p>Nuit a partir de 96€</p>
-                            <div id=stars>
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                                <img src="icons/star-solid.svg" class="icon-star" alt="icon-star">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <h4>Afficher plus</h4>
-            </section>
-
+                    <h4>Afficher plus</h4>
+                </section>
         </section> 
-
         <!-- Section 3 -->
         <section id="section-three">
             <h1>Activités à Marseille</h1>
             <div id="activities">
                 <div class="cartActivitie">
-                    <img src="images/activites/large/activite1.jpg"
-                        class="photo-activitie photoMediaQuery "  alt="activites1" height="390px">
+                    <img src="images/activites/large/activite1.jpg" class="photo-activitie photoMediaQuery_activite "
+                        alt="activites1" height="390px">
                     <p class="activiteTitle">veux port</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites2.jpg"
-                            class="photo-activitie photoMediaQuery "  alt="activites2" height="180px">
+                            class="photo-activitie photoMediaQuery_activite " alt="activites2" height="180px">
                         <p class="activiteTitle">Fort de Pomègues</p>
                     </div>
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites3.jpg"
-                            class="photo-activitie photoMediaQuery "  alt="activites3" 
-                            height="115px">
+                            class="photo-activitie photoMediaQuery_activite " alt="activites3" height="115px">
                         <p class="activiteTitle">Îles du Frioul</p>
                     </div>
                 </div>
 
                 <div class="cartActivitie activite-4">
-                    <img src="images/activites/large/activite4.jpg"
-                        class="photo-activitie photoMediaQuery "  alt="activites4"
-                        height="390px">
+                    <img src="images/activites/large/activite4.jpg" class="photo-activitie photoMediaQuery_activite"
+                        alt="activites4" height="390px">
                     <p class="activiteTitle">Parc National des Calanques</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites5.jpg"
-                            class="photo-activitie photoMediaQuery " alt="activites5" 
-                            height="145px">
+                            class="photo-activitie photoMediaQuery_activite " alt="activites5" height="145px">
                         <p class="activiteTitle">Notre-Dme-de-la-Garde</p>
                     </div>
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites6.jpg"
-                            class="photo-activitie photoMediaQuery "  alt="activites6" 
-                            height="150px">
+                            class="photo-activitie photoMediaQuery_activite " alt="activites6" height="150px">
                         <p class="activiteTitle">Parc Longchamp</p>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
-           
-        <!-- footer -->
-        <footer id="footer">
-            <div class="footerlist">
-                <h3>À propos</h3>
-                <p>Fonctionnement du site</p>
-                <p>Conditions générale de vente</p>
-                <p>Données et confidentialité</p>
-            </div>
-            <div class="footerlist">
-                <h3>Nos hébergements</h3>
-                <p>Charte qualité</p>
-                <p>Soumettre votre hôtel</p>
-            </div>
-            <div class="footerlist">
-                <h3>Assistance</h3>
-                <p>Centre d'aide</p>
-                <p>Nous contacter</p>
-            </div>
-        </footer>
-    
-
+    </div>  
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footerlist">
+            <h3>À propos</h3>
+            <p>Fonctionnement du site</p>
+            <p>Conditions générale de vente</p>
+            <p>Données et confidentialité</p>
+        </div>
+        <div class="footerlist">
+            <h3>Nos hébergements</h3>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hôtel</p>
+        </div>
+        <div class="footerlist">
+            <h3>Assistance</h3>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+        </div>
+    </footer>
 </body>
 
 </html>

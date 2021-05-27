@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+nav a:hover
+{
+    color:  #0065FC;
+    padding-top: 20px;
+    border-top: 2px solid #0065FC;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex; 
+}
+nav a
+{
+    font-size: medium;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin: 40px;
+}
+nav li
+{
+    margin-right: 15px;
+}
+#bloc_page
+{
+    margin: 0 30px;
+}
+#populaires
+{
+    position: relative;
+    border-radius: 15px;
+    min-width: 325px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 25px;
+    background-color: #F2F2F2;
+} 
+#section_two
+{
+   display: flex;
+   flex-flow: row-reverse;
+}
+#section_two #hebergements h1
+{
+    margin-bottom: 5px;
+    margin-left: 7px;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#listHebergement
+{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 943px;
+}
+.cartaside
+{
+    max-width: 334px;
+}
+.cartHebergement
+{
+    margin: 18px;
+}
+#hebergements h4 
+{
+    margin-left: 23px;
+}
+.acticites2and4Column 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 42px;
+}
+.activite-4
+{
+    margin-left: 42px;  
+}
+.cartActivitie
+{
+    width: 300px;
+}
