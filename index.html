@@ -4,11 +4,11 @@
 <head>
     <meta charset="uft-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="index_desktop.css" />
-    <link rel="stylesheet" media="screen and (max-width: 677px)" href="index_smartphone.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1024px min-width:678px )" href="index_tablette.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 677px)" href="css/smartphone.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (min-width:678px )" href="css/tablette.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
     <title>Reservia</title>
 </head>
 
@@ -47,7 +47,7 @@
             <nav id="nav_mobile">
                 <ul>
                     <li><a href="#hebergements" class="nav-mobile-a">Hébergements</a></li>
-                    <li><a href="#activities" class="nav-mobile-a">Activités</a></li>
+                    <li id="nav_activites"><a href="#activities" class="nav-mobile-a">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -250,37 +250,37 @@
             <h1>Activités à Marseille</h1>
             <div id="activities">
                 <div class="cartActivitie">
-                    <img src="images/activites/large/activite1.jpg" class="photo-activitie photoMediaQuery_activite "
-                        alt="activites1" height="390px">
+                    <img src="images/activites/large/activite1.jpg" class="photo-activitie activites1-4 photoMediaQuery_activite "
+                        alt="activites1" >
                     <p class="activiteTitle">veux port</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites2.jpg"
-                            class="photo-activitie photoMediaQuery_activite " alt="activites2" height="180px">
+                            class="photo-activitie activites2 photoMediaQuery_activite " alt="activites2">
                         <p class="activiteTitle">Fort de Pomègues</p>
                     </div>
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites3.jpg"
-                            class="photo-activitie photoMediaQuery_activite " alt="activites3" height="115px">
+                            class="photo-activitie activites3 photoMediaQuery_activite " alt="activites3" >
                         <p class="activiteTitle">Îles du Frioul</p>
                     </div>
                 </div>
 
                 <div class="cartActivitie activite-4">
-                    <img src="images/activites/large/activite4.jpg" class="photo-activitie photoMediaQuery_activite"
-                        alt="activites4" height="390px">
+                    <img src="images/activites/large/activite4.jpg" class="photo-activitie activites1-4 photoMediaQuery_activite"
+                        alt="activites4" >
                     <p class="activiteTitle">Parc National des Calanques</p>
                 </div>
                 <div class="acticites2and4Column">
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites5.jpg"
-                            class="photo-activitie photoMediaQuery_activite " alt="activites5" height="145px">
+                            class="photo-activitie activites5 photoMediaQuery_activite " alt="activites5" >
                         <p class="activiteTitle">Notre-Dme-de-la-Garde</p>
                     </div>
                     <div class="cartActivitie">
                         <img src="images/activites/4_small/activites6.jpg"
-                            class="photo-activitie photoMediaQuery_activite " alt="activites6" height="150px">
+                            class="photo-activitie activites6 photoMediaQuery_activite " alt="activites6">
                         <p class="activiteTitle">Parc Longchamp</p>
                     </div>
                 </div>

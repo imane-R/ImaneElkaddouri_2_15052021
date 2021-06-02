@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+
 body
 {
     background-color: #ffffff;
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #logo_nav_desktop
@@ -34,11 +37,12 @@ nav ul
 }
 nav a
 {
-    font-size: medium;
+    font-size: large;
+    font-weight: lighter;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 40px;
+    margin: 51px;
 }
 #logo_nav_desktop nav .singUp a
 {
@@ -52,7 +56,7 @@ nav a
 }
 #smartphone-filtes-title
 {
-    visibility: hidden;
+    display: none;
 }
 h1
 {
@@ -178,7 +182,7 @@ input[type=text]
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
-    height: 110px;
+    height: 120px;
 }
 .cartHebergement
 {
@@ -274,12 +278,26 @@ input[type=text]
 {
     margin-bottom: 20px;
 }
-.photo-activitie
+
+.activites1-4
 {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    object-fit: cover;
-    width: 100%;
+    height: 390px;
+}
+.activites2
+{
+    height: 180px;
+}
+.activites3
+{
+    height: 115px;
+}
+.activites5
+{
+    height: 145px;
+}
+.activites6
+{
+    height: 150px;
 }
 .cartActivitie
 {
@@ -300,7 +318,7 @@ input[type=text]
     justify-content: space-around;
     border: #F2F2F2;
     background-color: #F2F2F2;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 

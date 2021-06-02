@@ -1,8 +1,20 @@
 
-
+#bloc_page
+{
+   margin: 0px 25px; 
+}
+#populaires
+{
+   max-width: fit-content; 
+   margin-left: 130px;  
+}
+.cartaside
+{
+    max-width: 500px;
+}
 #hebergements 
 {
-    padding: 15px;
+    padding: 45px;
 }
 .photoMediaQuery_activite
 {
@@ -21,9 +33,16 @@
     cursor: pointer;
     border-radius: 15px;
     box-shadow: 1px 5px 6px #f2f2f2;
+    max-width: 711px;
+    margin-bottom: 30px;
 }
+
 .photo-activitie
 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    width: 100%;
     height: 200px;
 }
 .photo-hebergement
