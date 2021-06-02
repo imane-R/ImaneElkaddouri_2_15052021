@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+body
+{
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_nav_desktop
+{
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-end;
+    margin: 20px
+}
+#logo_nav_mobile
+{
+    display: none;
+}
+
+#logo img
+{
+    width: 100px;
+    height: 45px;
+}
+.nav_menu
+{
+    display: flex;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex; 
+}
+nav a
+{
+    font-size: large;
+    font-weight: lighter;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin: 51px;
+}
+#logo_nav_desktop nav .singUp a
+{
+    color: #0065FC;
+    margin-left: -28px;
+}
+
+#nav_mobile
+{
+    display: none;
+}
+#smartphone-filtes-title
+{
+    display: none;
+}
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#input_button
+{
+    display: flex;
+}
+.icon-location
+{
+    padding: 15px 22px;
+    background-color: #F2F2F2;
+    height: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #1b1414; 
+      
+}
+    
+#search_input
+{ 
+    padding: 10px 15px;
+    border-right: none;
+    border-left: none;
+    border-top-style: outset;
+    border-color: #F2F2F2;
+    
+}
+input[type=text] 
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#search_button
+{
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: solid;
+    border-color: #0065FC;
+    color: #ffffff;
+    background-color: #0065FC;
+
+}
+#searchIcon_button
+{
+    visibility: hidden;
+}
+#Filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 0px;
+}
+#section_one #Filters h2
+{
+    font-weight: bold;
+    margin-top: 27px;
+    font-size: large;
+}
+
+.filter_button
+{
+    font-size: 18px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: #ffffff;
+    border-color: #F2F2F2; 
+    padding: 11px ;
+    padding-left: 50px;
+    padding-right: 25px;
+    margin-top: 18px;
+    margin-left: 32px;
+    white-space: nowrap; 
+}
+.filter_button:hover
+{
+    background-color: #DEEBFF;
+} 
+
+.icon_filter
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 50%;
+    padding: 11px 11px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 25px; 
+   
+}
+#info
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.icon-info
+{
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 20px;
+}
+
+#hebergements h4
+{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.photo-hebergement
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 120px;
+}
+.cartHebergement
+{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    box-shadow: 1px 5px 6px #b1afaf;
+}
+.cartHebergement .hebergement-description h3
+{
+    margin: 3px 11px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.cartHebergement .hebergement-description p
+{
+    margin: 3px 11px;
+    font-size: small;
+}
+.cartHebergement .hebergement-description #stars
+{
+    margin: 3px 11px;
+}
+.cartaside .description_aside h3
+{
+    margin: 4px;
+    font-size: medium;
+    padding-top: 5px;
+}
+.cartaside .description_aside p
+{
+    margin: 6px;
+    margin-bottom: 40px;
+    font-size: small;
+
+}
+#stars
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+}
+.icon-star
+{
+    height: 11px;
+
+}
+
+#populaires h1
+{
+    margin-bottom: -4px;
+}
+#title-icone
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.icon-chart
+{
+    height: 20px;
+    padding-top: 29px;
+}
+.photoAside
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 123px;
+    height: 132px;
+    object-fit: cover;
+
+}
+.cartaside
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    box-shadow: 1px 5px 6px #b1afaf;
+}
+.description_aside
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#section-three h1
+{
+    margin-bottom: 20px;
+}
+
+.activites1-4
+{
+    height: 390px;
+}
+.activites2
+{
+    height: 180px;
+}
+.activites3
+{
+    height: 115px;
+}
+.activites5
+{
+    height: 145px;
+}
+.activites6
+{
+    height: 150px;
+}
+.cartActivitie
+{
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 5px 6px #f2f2f2;
+}
+.activiteTitle
+{
+    padding-left: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    border: #F2F2F2;
+    background-color: #F2F2F2;
+    padding-left: 25px;
+}
+
+
+

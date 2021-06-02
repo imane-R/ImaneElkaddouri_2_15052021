@@ -1,0 +1,228 @@
+
+    #logo_nav_desktop
+    {
+       display: none; 
+    }
+    #logo_nav_mobile
+    {
+        display: flex;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    #logo_nav_mobile nav .singUp a
+    {
+        color: #0065FC;
+        border-bottom: none;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 230px;
+    }
+    #nav_mobile
+    {
+        display: block;
+        justify-content: space-between;
+        font-size: medium;
+        color: #181818;
+        padding-bottom: 3px; 
+    }
+    nav ul
+    {
+        list-style-type: none;
+        display: flex; 
+        padding-inline-start: 0px;
+    }
+    #nav_mobile li
+    {
+        width: 100%;
+        height: 33px;
+        padding-right: 30px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    #nav_mobile li:hover
+    {
+        color:  #0065FC;
+        border-bottom: solid 3px #0065FC; 
+
+    }
+
+    #section_one
+    {
+        padding-left: 25px; 
+    }
+    #input_button
+    {
+        display: flex;
+        margin-top: 35px;
+    }
+    #desktop-filters-title
+    {
+        display: none;
+    }
+    #smartphone-filtes-title
+    {
+        display: block;
+        padding-top: 20px;
+        margin-bottom: -10px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .filter_button
+    {
+        padding-right: 15px;
+        margin-left: 15px;
+
+    }
+    .icon_filter
+    {
+        margin-left: 15px;   
+    }
+    #search_button
+    {
+        display: none;
+    } 
+    #search_input
+    {
+        padding: 10px;
+        padding-left: 22px;
+        padding-right: 42px; 
+    }  
+    #searchIcon_button
+    {
+        visibility: visible;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: #0065FC;
+        background:url(/Users/imane/Desktop/P2_ELKADDOURI-IMANE/icons/search-solid.svg) no-repeat center;
+        background-color: #0065FC;
+        display: block;
+        padding: 23px 26px;
+        position: absolute;
+        margin-left: 319px;
+        
+    }
+    #Filters
+    {
+        flex-wrap: wrap;
+        margin-left: -15px;
+    }
+
+    #populaires
+    {
+        border: 1px;
+        width: 100%;
+        background-color: #F2F2F2;
+        padding-left: 25px;
+        padding-right: 26px;
+        padding-bottom: 15px;
+    }
+    .cartaside
+    {
+        margin-bottom: 15px;
+    }
+    #hebergements
+    {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: -15px;
+    }
+    #section_two #hebergements h1
+    {
+        margin-bottom:15px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .cartaside .description_aside h3
+    {
+        font-size: larger; 
+    }
+    .cartHebergement .hebergement-description h3
+    {
+        font-size: larger;
+        margin-bottom: 7px;
+    }
+    #hebergements h4
+    {
+        margin-top: 12px;
+    }
+    .photoAside
+    {
+        width: 132px;
+    }
+    .cartHebergement
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: #ffffff;
+        padding: 0px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        box-shadow: 1px 5px 6px #F2F2F2;
+    }
+    .photoMediaQuery
+    { 
+      width: 100%; 
+      object-fit: cover;
+    } 
+    .hebergement-description
+    {
+        padding-left: 15px ;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-bottom: 16px
+    }
+    #section-three
+    {
+        margin-left: 25px;
+        margin-right: -15px;
+    }
+    .photoMediaQuery_activite
+    {
+        height: 140px;  
+    } 
+    .cartActivitie
+    {
+        border-radius: 15px;
+        box-shadow: 1px 5px 6px #F2F2F2;
+        margin-bottom: 25px;
+        padding-bottom: 5px;
+        cursor: pointer
+    }
+    #activities
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-activitie
+    {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    #footer
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       padding-right: 26px;
+   } 
+   #listHebergement
+   {
+       display: flex;
+       flex-direction: column;
+   }
+   #footer .footerlist p
+   {
+       font-size: small;
+   }
+   .footerlist
+   {
+       margin-left: 10px;   
+   }
+   
