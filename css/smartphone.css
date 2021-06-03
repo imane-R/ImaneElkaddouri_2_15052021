@@ -13,13 +13,19 @@
         margin-top: 15px;
         margin-left: 25px;
     }
+    nav a 
+    {
+        font-size: medium;
+        margin: 43px;
+    }
     #logo_nav_mobile nav .singUp a
     {
         color: #0065FC;
         border-bottom: none;
         font-size: large;
         font-weight: bolder;
-        margin-left: 140px;
+        margin-left: 146px;
+        margin-right: 0px;
     }
     #nav_mobile
     {
@@ -39,7 +45,7 @@
     {
         width: 100%;
         height: 33px;
-        padding-right: 30px;
+        padding-right: 15px;
         border-bottom: 3px solid #F2F2F2;
     }
 
@@ -52,7 +58,7 @@
 
     #section_one
     {
-        padding-left: 25px; 
+        padding-left: 17px; 
     }
     #input_button
     {
@@ -74,7 +80,7 @@
     .filter_button
     {
         padding-right: 15px;
-        margin-left: 15px;
+        margin-left: 18px;
 
     }
     .icon_filter
@@ -97,13 +103,17 @@
         border-radius: 15px;
         border-style: solid;
         border-color: #0065FC;
-        background:url(/Users/imane/Desktop/P2_ELKADDOURI-IMANE/icons/search-solid.svg) no-repeat center;
+        background:url(../icons/search-solid.svg) no-repeat center 5px;
         background-color: #0065FC;
         display: block;
-        padding: 23px 26px;
+        padding: 23px 23px;
         position: absolute;
         margin-left: 280px;
         
+    }
+    .icon-location
+    {
+        padding: 15px 17px;
     }
     #Filters
     {
@@ -119,6 +129,10 @@
         padding-right: 17px;
         padding-bottom: 15px;
     }
+    #title-icone
+    {
+        margin-right: 3px;
+    }
     .cartaside
     {
         margin-bottom: 15px;
@@ -128,7 +142,7 @@
         background-color: #ffffff;
         display: flex;
         flex-direction: column;
-        margin-left: 25px;
+        margin-left: 17px;
     }
     #section_two #hebergements h1
     {
@@ -163,7 +177,7 @@
         margin-bottom: 20px;
         cursor: pointer;
         box-shadow: 1px 5px 6px #F2F2F2;
-        width: 330px;
+        width: 340px;
     }
     .photoMediaQuery
     { 
@@ -180,7 +194,7 @@
     }
     #section-three
     {
-        margin-left: 25px;
+        margin-left: 17px;
     }
     .photoMediaQuery_activite
     {
@@ -193,7 +207,7 @@
         margin-bottom: 25px;
         padding-bottom: 5px;
         cursor: pointer;
-        width: 330px;
+        width: 340px;
     }
     #activities
     {
@@ -212,7 +226,7 @@
    {
        display: flex;
        flex-direction: column;
-       padding-right: 26px;
+       padding-left: 10px;
    } 
    #listHebergement
    {

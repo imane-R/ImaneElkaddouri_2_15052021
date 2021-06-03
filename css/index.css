@@ -14,7 +14,7 @@ body
     display: flex;
     justify-content: space-between ;
     align-items: flex-end;
-    margin: 20px
+    margin: 20px 0px;
 }
 #logo_nav_mobile
 {
