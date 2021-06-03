@@ -42,7 +42,7 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 51px;
+    margin: 29px;
 }
 #logo_nav_desktop nav .singUp a
 {
@@ -242,6 +242,7 @@ input[type=text]
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin-right: 25px;
 }
 .icon-chart
 {
