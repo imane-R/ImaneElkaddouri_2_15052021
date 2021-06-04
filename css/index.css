@@ -42,7 +42,7 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 29px;
+    margin: 20px;
 }
 #logo_nav_desktop nav .singUp a
 {
@@ -63,6 +63,7 @@ h1
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
     font-weight: bolder;
+    margin-bottom: 12px;
 }
 #input_button
 {
@@ -70,7 +71,7 @@ h1
 }
 .icon-location
 {
-    padding: 15px 22px;
+    padding: 14px 16px;
     background-color: #F2F2F2;
     height: 20px;
     border-top-left-radius: 15px;
@@ -132,7 +133,7 @@ input[type=text]
     border-radius: 50px;
     border-style: solid;
     background-color: #ffffff;
-    border-color: #F2F2F2; 
+    border-color: #e0e0e0; 
     padding: 11px ;
     padding-left: 50px;
     padding-right: 25px;
@@ -142,9 +143,10 @@ input[type=text]
 }
 .filter_button:hover
 {
-    background-color: #DEEBFF;
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #DEEBFF;
 } 
-
 .icon_filter
 {
     background-color: #DEEBFF;
@@ -175,7 +177,8 @@ input[type=text]
 {
     font-size: larger;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 .photo-hebergement
 {
@@ -206,17 +209,17 @@ input[type=text]
 }
 .cartHebergement .hebergement-description #stars
 {
-    margin: 3px 11px;
+    margin: 8px 11px;
 }
 .cartaside .description_aside h3
 {
-    margin: 4px;
+    margin: 4px 0px;
     font-size: medium;
     padding-top: 5px;
 }
 .cartaside .description_aside p
 {
-    margin: 6px;
+    margin: 6px 0px;
     margin-bottom: 40px;
     font-size: small;
 
@@ -225,7 +228,7 @@ input[type=text]
 {
     display: flex;
     flex-direction: row;
-    padding-top: 6px;
+    margin-bottom: 6px;
 }
 .icon-star
 {
@@ -242,12 +245,11 @@ input[type=text]
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    margin-right: 25px;
 }
 .icon-chart
 {
-    height: 20px;
-    padding-top: 29px;
+    height: 22px;
+    padding-top: 27px;
 }
 .photoAside
 {
@@ -316,7 +318,6 @@ input[type=text]
 #footer
 {
     display: flex;
-    justify-content: space-around;
     border: #F2F2F2;
     background-color: #F2F2F2;
     padding-left: 25px;
