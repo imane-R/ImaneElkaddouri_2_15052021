@@ -4,9 +4,13 @@
 nav a:hover
 {
     color:  #0065FC;
-    padding-top: 20px;
-    border-top: 2px solid #0065FC;
-    
+    padding-top: 40px;
+    border-top: 2px solid #0065FC;   
+}
+#logo_nav_desktop
+{
+    padding-top: 26px;
+    margin: 0px;
 }
 nav ul
 {
@@ -19,24 +23,20 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 40px;
-}
-nav li
-{
-    margin-right: 15px;
+    padding: 0px 20px;
 }
 #bloc_page
 {
-    margin: 0 30px;
+    margin: 0 40px;
 }
 #populaires
 {
     position: relative;
     border-radius: 15px;
     min-width: 325px;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin-left: 25px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-left: 37px;
     background-color: #F2F2F2;
 } 
 #section_two
@@ -48,7 +48,8 @@ nav li
 {
     border-radius: 15px;
     padding: 15px;
-    padding-left: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
     max-width: 850px;
     background-color: #F2F2F2; 
 }
@@ -65,6 +66,8 @@ nav li
 {
   display: flex;
   flex-wrap: wrap;
+  width: fit-content;
+  justify-content: space-evenly;
   max-width: 943px;
 }
 .cartaside
@@ -79,7 +82,7 @@ nav li
 #hebergements h4 
 {
     margin-left: 23px;
-    margin-bottom: 33px;
+    margin-bottom: 28px;
 }
 .photo-hebergement
 {
@@ -118,5 +121,6 @@ nav li
 }
 .footerlist 
 {
-    margin-right: auto;
+    margin-right: 250px;
+    margin-bottom: 30px;
 }

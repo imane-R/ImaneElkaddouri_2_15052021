@@ -45,7 +45,6 @@
     {
         width: 100%;
         height: 33px;
-        padding-right: 15px;
         border-bottom: 3px solid #F2F2F2;
     }
 
@@ -106,7 +105,7 @@
         background:url(../icons/search-solid.svg) no-repeat center 5px;
         background-color: #0065FC;
         display: block;
-        padding: 23px 23px;
+        padding: 23px 24px;
         position: absolute;
         margin-left: 280px;
         
@@ -127,7 +126,7 @@
         background-color: #F2F2F2;
         padding-left: 17px;
         padding-right: 17px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
     #title-icone
     {
@@ -159,13 +158,22 @@
         font-size: larger;
         margin-bottom: 7px;
     }
+    #stars
+    {
+        padding-top: 0px;
+    }
+    .cartHebergement .hebergement-description #stars .icon-star
+    {
+        height: 12px;
+    }
     #hebergements h4
     {
         margin-top: 12px;
     }
     .photoAside
     {
-        width: 132px;
+        width: 115px;
+        min-width: 115px;
     }
     .cartHebergement
     {
@@ -190,7 +198,7 @@
         padding-bottom: 15px;
         margin-top: 5px;
         padding-left: 5px;
-        padding-bottom: 16px
+        padding-bottom: 5px
     }
     #section-three
     {
@@ -221,12 +229,19 @@
         object-fit: cover;
         width: 100%;
     }
+    .activiteTitle 
+    {
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
 
     #footer
    {
        display: flex;
        flex-direction: column;
        padding-left: 10px;
+       padding-bottom: 50px;
+
    } 
    #listHebergement
    {
@@ -235,7 +250,8 @@
    }
    #footer .footerlist p
    {
-       font-size: small;
+       font-size: medium;
+       color: grey;
    }
    .footerlist
    {
