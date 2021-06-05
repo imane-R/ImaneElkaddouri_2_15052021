@@ -166,6 +166,11 @@ input[type=text]
     flex-direction: row;
     margin-bottom: 20px;
 }
+h5
+{
+    color: grey;
+    margin: 18px 0px 7px;
+}
 .icon-info
 {
     margin-top: 15px;
@@ -173,6 +178,10 @@ input[type=text]
     height: 20px;
 }
 
+#hebergements h2
+{
+    margin: 11px 24px 8px;
+}
 #hebergements h4
 {
     font-size: larger;
@@ -207,7 +216,7 @@ input[type=text]
     margin: 3px 11px;
     font-size: small;
 }
-.cartHebergement .hebergement-description #stars
+.cartHebergement .hebergement-description .stars
 {
     margin: 8px 11px;
 }
@@ -224,7 +233,7 @@ input[type=text]
     font-size: small;
 
 }
-#stars
+.stars
 {
     display: flex;
     flex-direction: row;
@@ -245,6 +254,10 @@ input[type=text]
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+#title-icone h2
+{
+    margin: 24px 0px 0px 0px;
 }
 .icon-chart
 {
@@ -277,9 +290,9 @@ input[type=text]
     padding-right: 15px;
 }
 
-#section-three h1
+#section-three h2
 {
-    margin-bottom: 20px;
+    margin-top: 45px;
 }
 
 .activites1-4

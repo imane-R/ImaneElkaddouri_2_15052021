@@ -158,11 +158,11 @@
         font-size: larger;
         margin-bottom: 7px;
     }
-    #stars
+    .stars
     {
         padding-top: 0px;
     }
-    .cartHebergement .hebergement-description #stars .icon-star
+    .cartHebergement .hebergement-description .stars .icon-star
     {
         height: 12px;
     }
