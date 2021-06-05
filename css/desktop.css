@@ -39,7 +39,7 @@ nav a
     margin-left: 37px;
     background-color: #F2F2F2;
 } 
-#section_two
+#aside-section
 {
    display: flex;
    flex-flow: row-reverse;
@@ -81,8 +81,7 @@ nav a
 }
 #hebergements h4 
 {
-    margin-left: 23px;
-    margin-bottom: 28px;
+    margin: 30px 0px 30px 22px;
 }
 .photo-hebergement
 {
@@ -90,6 +89,7 @@ nav a
     border-top-right-radius: 15px;
     object-fit: cover;
     height: 110px;
+    width: 100%;
 }
 .acticites2and4Column 
 {
