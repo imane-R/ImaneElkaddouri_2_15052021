@@ -11,6 +11,7 @@ nav a:hover
 {
     padding-top: 26px;
     margin: 0px;
+    margin-bottom: 20px;
 }
 nav ul
 {
@@ -34,9 +35,9 @@ nav a
     position: relative;
     border-radius: 15px;
     min-width: 325px;
-    padding-left: 37px;
-    padding-right: 37px;
-    margin-left: 37px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
     background-color: #F2F2F2;
 } 
 #aside-section
@@ -48,8 +49,8 @@ nav a
 {
     border-radius: 15px;
     padding: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 850px;
     background-color: #F2F2F2; 
 }
@@ -96,16 +97,13 @@ nav a
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 42px;
 }
 #activities
 {
     display: flex;
     margin-bottom: 45px;
-}
-.activite-4
-{
-    margin-left: 42px;  
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .photo-activitie
 {
