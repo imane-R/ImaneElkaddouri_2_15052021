@@ -59,6 +59,10 @@
     {
         padding-left: 17px; 
     }
+    #section_one p 
+    {
+        color:#616060;
+    }
     #input_button
     {
         display: flex;
@@ -120,6 +124,19 @@
         margin-left: -15px;
     }
 
+    #info 
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+    h5 
+    {
+        color: grey;
+        margin: 18px 0px 7px;
+        font-size: inherit;
+        font-weight: 100;
+    }
     #populaires
     {
         border: 1px;
@@ -143,11 +160,9 @@
         flex-direction: column;
         margin-left: 17px;
     }
-    #section_two #hebergements h1
+    #hebergements h2 
     {
-        margin-bottom:15px;
-        font-size: x-large;
-        font-weight: bolder;
+        margin: 27px 0px 27px;
     }
     .cartaside .description_aside h3
     {
@@ -169,6 +184,7 @@
     #hebergements h4
     {
         margin-top: 12px;
+        font-size: large;
     }
     .photoAside
     {
@@ -251,7 +267,7 @@
    #footer .footerlist p
    {
        font-size: medium;
-       color: grey;
+       color:#616060;
    }
    .footerlist
    {

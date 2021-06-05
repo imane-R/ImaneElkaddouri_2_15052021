@@ -21,7 +21,7 @@ body
     display: none;
 }
 
-#logo img
+.logo img
 {
     width: 100px;
     height: 45px;
@@ -64,6 +64,7 @@ h1
     font-size: x-large;
     font-weight: bolder;
     margin-bottom: 12px;
+    margin-top: 5px;
 }
 #input_button
 {
@@ -147,6 +148,18 @@ input[type=text]
     border-color: #0065FC;
     color: #DEEBFF;
 } 
+.cartActivitie:hover
+{
+    background-color:#DEEBFF ;
+}
+.cartHebergement:hover
+{
+    background-color:#DEEBFF ; 
+}
+.cartaside:hover
+{
+    background-color:#DEEBFF ; 
+}
 .icon_filter
 {
     background-color: #DEEBFF;
