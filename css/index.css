@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-
+#logo
+{
+    width: 20px;
+    height: 0px;
+}
 body
 {
     background-color: #ffffff;
@@ -108,7 +112,12 @@ input[type=text]
     border-color: #0065FC;
     color: #ffffff;
     background-color: #0065FC;
-
+}
+#search_button:hover
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-color:#DEEBFF ;
 }
 #searchIcon_button
 {
@@ -201,6 +210,7 @@ h5
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 .photo-hebergement
 {
@@ -346,7 +356,7 @@ h5
     display: flex;
     border: #F2F2F2;
     background-color: #F2F2F2;
-    padding-left: 25px;
+    padding-left: 40px;
 }
 
 

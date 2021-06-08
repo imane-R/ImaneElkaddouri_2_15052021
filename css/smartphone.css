@@ -98,7 +98,7 @@
     {
         padding: 10px;
         padding-left: 22px;
-        padding-right: 10px; 
+        padding-right: 22px; 
     }  
     #searchIcon_button
     {
@@ -111,7 +111,7 @@
         display: block;
         padding: 23px 24px;
         position: absolute;
-        margin-left: 280px;
+        margin-left: 287px;
         
     }
     .icon-location
@@ -142,7 +142,7 @@
         border: 1px;
         background-color: #F2F2F2;
         padding-left: 17px;
-        padding-right: 17px;
+        padding-right: 19px;
         padding-bottom: 20px;
     }
     #title-icone
