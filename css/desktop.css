@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-
+#bloc_page
+{
+    margin: 0 40px;
+}
 nav a:hover
 {
     color:  #0065FC;
@@ -18,6 +21,10 @@ nav ul
     list-style-type: none;
     display: flex; 
 }
+#section_one p
+{
+    color: grey;
+}
 nav a
 {
     font-size: medium;
@@ -26,10 +33,6 @@ nav a
     text-decoration: none;
     padding: 0px 20px;
 }
-#bloc_page
-{
-    margin: 0 40px;
-}
 #populaires
 {
     position: relative;
@@ -37,7 +40,7 @@ nav a
     min-width: 325px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-left: 40px;
+    margin-left: 45px;
     background-color: #F2F2F2;
 } 
 #aside-section
@@ -49,8 +52,8 @@ nav a
 {
     border-radius: 15px;
     padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 24px;
+    padding-right: 23px;
     max-width: 850px;
     background-color: #F2F2F2; 
 }
@@ -92,6 +95,11 @@ nav a
     height: 110px;
     width: 100%;
 }
+#section-three h2 
+{
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
 .acticites2and4Column 
 {
     display: flex;
@@ -112,13 +120,13 @@ nav a
     object-fit: cover;
     width: 100%;
 }
-
 .cartActivitie
 {
-    width: 300px;
+    width: 305px;
+    margin-top: 28px;
 }
 .footerlist 
 {
-    margin-right: 250px;
+    margin-right: 273px;
     margin-bottom: 30px;
 }
