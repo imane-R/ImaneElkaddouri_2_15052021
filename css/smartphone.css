@@ -12,8 +12,9 @@
         display: flex;
         margin-top: 15px;
         margin-left: 25px;
+        position: relative;
     }
-    nav a 
+    .nav-mobile-a 
     {
         font-size: medium;
         margin: 43px;
@@ -24,8 +25,9 @@
         border-bottom: none;
         font-size: large;
         font-weight: bolder;
-        margin-left: 146px;
-        margin-right: 0px;
+        right: 0px;
+        top: 0px;
+        position: absolute;
     }
     #nav_mobile
     {
@@ -130,6 +132,11 @@
         flex-direction: row;
         margin: 20px;
     }
+    #aside-section 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     h5 
     {
         color: grey;
@@ -201,7 +208,7 @@
         margin-bottom: 20px;
         cursor: pointer;
         box-shadow: 1px 5px 6px #F2F2F2;
-        width: 340px;
+        width: 95%;
     }
     .photoMediaQuery
     { 
@@ -231,7 +238,7 @@
         margin-bottom: 25px;
         padding-bottom: 5px;
         cursor: pointer;
-        width: 340px;
+        width: 95%;
     }
     #activities
     {

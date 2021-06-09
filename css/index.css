@@ -202,7 +202,7 @@ h5
 
 #hebergements h2
 {
-    margin: 11px 24px 8px;
+    margin: 11px 24px 24px;
 }
 #hebergements h4
 {
@@ -356,7 +356,7 @@ h5
     display: flex;
     border: #F2F2F2;
     background-color: #F2F2F2;
-    padding-left: 40px;
+    padding-left: 45px;
 }
 
 
