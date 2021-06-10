@@ -44,7 +44,7 @@
     {
         list-style-type: none;
         display: flex; 
-        padding-inline-start: 0px;
+        padding-left: 0px;
     }
     #nav_menu li
     {
@@ -122,17 +122,12 @@
     #search_button
     {
         padding: 35px 31px 11px 16px;
-        border-color: #0065FC;
         border-radius: 15px;
         position: absolute;
         background:url(../icons/search-solid.svg) no-repeat center 5px;
         background-color: #0065FC;
         margin-left: 287px;
     } 
-    #searchIcon_button
-    {
-        size: 10px; 
-    }
     .icon-location
     {
         padding: 15px 17px;
