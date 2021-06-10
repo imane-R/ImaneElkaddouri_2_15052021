@@ -3,39 +3,42 @@
     {
        margin: 0px 0px; 
     }
-    #logo_nav_desktop
+    header
     {
-       display: none; 
+        margin-top: 14px;
     }
-    #logo_nav_mobile
+    #nav
     {
-        display: flex;
-        margin-top: 15px;
-        margin-left: 25px;
         position: relative;
+        display: block;
+    }
+    .logo
+    {
+        margin-left: 6px;  
+    }
+    #nav .singUp a
+    {
+        color: #0065FC;
+        border-bottom: none;
+        font-size: large;
+        font-weight: bolder;
+        right: 18px;
+        top: -75px;
+        position: absolute;
     }
     .nav-mobile-a 
     {
         font-size: medium;
         margin: 43px;
     }
-    #logo_nav_mobile nav .singUp a
-    {
-        color: #0065FC;
-        border-bottom: none;
-        font-size: large;
-        font-weight: bolder;
-        right: 0px;
-        top: 0px;
-        position: absolute;
-    }
-    #nav_mobile
+
+    #nav_menu
     {
         display: block;
         justify-content: space-between;
         font-size: medium;
         color: #181818;
-        padding-bottom: 3px; 
+        margin-top: 25px; 
     }
     nav ul
     {
@@ -43,14 +46,14 @@
         display: flex; 
         padding-inline-start: 0px;
     }
-    #nav_mobile li
+    #nav_menu li
     {
         width: 100%;
         height: 33px;
         border-bottom: 3px solid #F2F2F2;
     }
 
-    #nav_mobile li:hover
+    #nav_menu li:hover
     {
         color:  #0065FC;
         border-bottom: solid 3px #0065FC; 
@@ -65,22 +68,35 @@
     {
         color:#616060;
     }
+    #researchButtonText
+    {
+        display: none;
+    }
     #input_button
     {
         display: flex;
         margin-top: 35px;
     }
-    #desktop-filters-title
+    #filtes-title
     {
-        display: none;
-    }
-    #smartphone-filtes-title
-    {
-        display: block;
-        padding-top: 20px;
-        margin-bottom: -10px;
+        display: inline;
         font-size: larger;
         font-weight: bolder;
+        margin-left: 10px;
+        width: 100%;
+    }
+    #Filters
+    {
+        margin: 0px;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        position: relative;
+    }
+    #section_one #Filters h2
+    {
+        margin-top: 0;
+        margin-bottom: 0px;
+        margin-left: 15px;
     }
     .filter_button
     {
@@ -92,40 +108,35 @@
     {
         margin-left: 15px;   
     }
-    #search_button
+    #researchButtonText
     {
         display: none;
     } 
     #search_input
     {
-        padding: 10px;
+        padding: 11px;
         padding-left: 22px;
-        padding-right: 22px; 
-    }  
-    #searchIcon_button
+        padding-right: 22px;
+        margin-bottom: 35px; 
+    } 
+    #search_button
     {
-        visibility: visible;
-        border-radius: 15px;
-        border-style: solid;
+        padding: 35px 31px 11px 16px;
         border-color: #0065FC;
+        border-radius: 15px;
+        position: absolute;
         background:url(../icons/search-solid.svg) no-repeat center 5px;
         background-color: #0065FC;
-        display: block;
-        padding: 23px 24px;
-        position: absolute;
         margin-left: 287px;
-        
+    } 
+    #searchIcon_button
+    {
+        size: 10px; 
     }
     .icon-location
     {
         padding: 15px 17px;
     }
-    #Filters
-    {
-        flex-wrap: wrap;
-        margin-left: -15px;
-    }
-
     #info 
     {
         display: flex;

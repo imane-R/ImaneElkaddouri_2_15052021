@@ -8,15 +8,10 @@
 nav a:hover
 {
     color:  #0065FC;
-    padding-top: 40px;
+    padding-top: 39px;
     border-top: 2px solid #0065FC;   
 }
-#logo_nav_desktop
-{
-    padding-top: 26px;
-    margin: 0px;
-    margin-bottom: 20px;
-}
+
 nav ul
 {
     list-style-type: none;
@@ -33,6 +28,10 @@ nav a
     padding-bottom: 3px;
     text-decoration: none;
     padding: 0px 20px;
+}
+#searchIcon_button
+{
+    display: none;
 }
 #populaires
 {

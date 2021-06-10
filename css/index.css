@@ -12,27 +12,27 @@ body
     margin: 0;
     padding: 0;
 }
-
-#logo_nav_desktop
-{
-    display: flex;
-    justify-content: space-between ;
-    align-items: flex-end;
-    margin: 20px 0px;
-}
 #logo_nav_mobile
 {
     display: none;
 }
-
+header
+{
+    margin-top: 25px;
+    position: relative;
+    margin-bottom: 15px;
+}
+#nav
+{   
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 .logo img
 {
     width: 100px;
     height: 45px;
-}
-.nav_menu
-{
-    display: flex;
 }
 nav ul
 {
@@ -46,12 +46,14 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
-    margin: 20px;
+    margin: 19px;
 }
-#logo_nav_desktop nav .singUp a
+#nav .singUp a
 {
     color: #0065FC;
-    margin-left: -28px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: -20px;
 }
 
 #nav_mobile
@@ -121,7 +123,7 @@ input[type=text]
 }
 #searchIcon_button
 {
-    visibility: hidden;
+    display: none;
 }
 #Filters
 {
