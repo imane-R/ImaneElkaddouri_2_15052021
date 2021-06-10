@@ -17,40 +17,24 @@
     <div id="bloc_page">
         <!-- Header -->
         <header>
-            <div id="logo_nav_desktop">
                 <div class="logo">
                     <img src="images/logo/Reservia@3x.png" class="logo" alt="logo de Reservia">
                 </div>
-                <div class="nav_menu">
-                    <nav>
-                        <ul>
-                            <li><a href="#hebergements">Hébergements</a></li>
-                            <li><a href="#activities">Activités</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
+                <div id="nav">
+                    <div id="nav_menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#hebergements" class="nav-mobile-a">Hébergements</a></li>
+                                <li><a href="#activities" class="nav-mobile-a">Activités</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <nav id="singUp">
                         <ul>
                             <li class="singUp"><a href="#">S'inscrire</a></li>
                         </ul>
                     </nav>
                 </div>
-            </div>
-            <div id="logo_nav_mobile">
-                <div class="logo">
-                    <img src="images/logo/Reservia@3x.png" alt="logo de Reservia">
-                </div>
-                <nav id="singUp">
-                    <ul>
-                        <li class="singUp"><a href="#">S'inscrire</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <nav id="nav_mobile">
-                <ul>
-                    <li><a href="#hebergements" class="nav-mobile-a">Hébergements</a></li>
-                    <li><a href="#activities" class="nav-mobile-a">Activités</a></li>
-                </ul>
-            </nav>
         </header>
         <!-- Section 1 -->
         <section id="section_one">
@@ -59,13 +43,14 @@
             <div id="input_button">
                 <img src="icons/map-marker-alt-solid.svg" class=icon-location alt="icon-location">
                 <input type="text" id="search_input" name="villeEtPays" value="Marseille,France">
-                <button type="button" id="search_button"><b>Rechercher</b></button>
-                <button type="button" id="searchIcon_button"></button>
+                <button class="button" type="button" id="search_button">
+                    <span id="researchButtonText">Rechercher</span>
+                    <img src="icons/search-solid.svg" alt="research button" id="searchIcon_button"/>
+                </button>
 
             </div>
-            <h2 id="smartphone-filtes-title">Filters</h2>
             <div id="Filters">
-                <h2 id="desktop-filters-title">Filters</h2>
+                <h2 id="filtes-title">Filters</h2>
                 <div class="icon-button">
                     <img src="icons/money-bill-wave-solid.svg" class="icon_filter" alt="money-icon">
                     <button type="button" class="filter_button"><b>Économique</b></button>
