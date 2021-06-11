@@ -127,8 +127,8 @@
         position: absolute;
         background:url(../icons/search-solid.svg) no-repeat center 5px;
         background-color: #0065FC;
-        border-color: none;
         margin-left: 287px;
+        border-color: transparent;
     } 
     .icon-location
     {
