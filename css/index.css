@@ -25,9 +25,14 @@ header
 #nav
 {   
     display: flex;
+    flex-direction: column;
     position: absolute;
     right: 0;
     top: 0;
+}
+#nav_menu
+{
+    display: flex;
 }
 .logo img
 {
@@ -53,7 +58,6 @@ nav a
     color: #0065FC;
     margin-right: 0;
     padding-right: 0;
-    margin-left: -20px;
 }
 
 #nav_mobile
