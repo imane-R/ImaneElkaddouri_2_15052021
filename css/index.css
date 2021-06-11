@@ -12,27 +12,16 @@ body
     margin: 0;
     padding: 0;
 }
-#logo_nav_mobile
-{
-    display: none;
-}
 header
 {
     margin-top: 25px;
     position: relative;
     margin-bottom: 15px;
 }
-#nav
-{   
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-#nav_menu
+#nav_menu li
 {
     display: flex;
+    flex-direction: column;
 }
 .logo img
 {
@@ -41,8 +30,7 @@ header
 }
 nav ul
 {
-    list-style-type: none;
-    display: flex; 
+    list-style-type: none; 
 }
 nav a
 {
@@ -53,21 +41,13 @@ nav a
     text-decoration: none;
     margin: 19px;
 }
-#nav .singUp a
+#nav #singUp a
 {
     color: #0065FC;
     margin-right: 0;
-    padding-right: 0;
+    padding-right: 20px;
 }
 
-#nav_mobile
-{
-    display: none;
-}
-#smartphone-filtes-title
-{
-    display: none;
-}
 h1
 {
     font-family: 'Raleway', sans-serif;

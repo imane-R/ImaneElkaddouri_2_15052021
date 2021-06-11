@@ -16,20 +16,21 @@
     {
         margin-left: 6px;  
     }
-    #nav .singUp a
+    #nav #singUp a
     {
         color: #0065FC;
         border-bottom: none;
         font-size: large;
         font-weight: bolder;
-        right: 24px;
-        top: -68px;
+        right: 0px;
+        top: -57px;
         position: absolute;
+        border-bottom: none;
     }
-    .nav-mobile-a 
+    nav a 
     {
         font-size: medium;
-        margin: 43px;
+        margin: 0px;
     }
 
     #nav_menu
@@ -47,7 +48,7 @@
         display: flex; 
         padding-left: 0px;
     }
-    #nav_menu li
+    #nav_menu .nav-mobile-a
     {
         width: 100%;
         height: 33px;
@@ -55,13 +56,11 @@
         text-align: center;
     }
 
-    #nav_menu li:hover
+    #nav_menu .nav-mobile-a:hover
     {
         color:  #0065FC;
         border-bottom: solid 3px #0065FC; 
-
     }
-
     #section_one
     {
         padding-left: 17px; 

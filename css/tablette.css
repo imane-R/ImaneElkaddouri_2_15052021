@@ -4,6 +4,33 @@
    max-width: 1600px;
    margin: 0px 25px; 
 }
+#logo-nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+}
+#nav a:hover
+{
+    color:  #0065FC;
+    border-color: #0065FC; 
+}
+
+#nav ul
+{
+    list-style-type: none;
+    display: flex; 
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+nav a
+{
+    font-size: medium;
+    color: #181818;
+    text-decoration: none;
+    padding: 37px 15px 0px;
+    border-top: 2px solid  transparent; 
+}
 header
 {
     margin-bottom: 25px;
