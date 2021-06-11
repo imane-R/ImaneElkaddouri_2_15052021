@@ -35,6 +35,18 @@ header
 {
     margin-bottom: 25px;
 }
+#search_button
+{
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: solid;
+    border-color: #0065FC;
+    color: #ffffff;
+    background-color: #0065FC;
+}
 #nav
 {
     margin: 0px 0px;
