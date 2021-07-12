@@ -3,8 +3,9 @@
 #bloc_page
 {
     max-width: 1600px;
-    margin: 0 50px;
+    margin: 0 auto;
 }
+
 #logo-nav-bar
 {
     display: flex;
