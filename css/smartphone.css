@@ -268,8 +268,6 @@
 
     #footer
    {
-       display: flex;
-       flex-direction: column;
        padding-left: 10px;
        padding-bottom: 50px;
 
@@ -287,5 +285,9 @@
    .footerlist
    {
        margin-left: 10px;   
+   }
+   #footer .container{
+       display: flex;
+       flex-direction: column;
    }
    

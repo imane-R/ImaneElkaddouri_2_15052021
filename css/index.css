@@ -5,6 +5,10 @@
     width: 20px;
     height: 0px;
 }
+.container{
+    max-width: 1600px;
+    margin: 0 auto ;
+}
 body
 {
     background-color: #ffffff;
@@ -324,9 +328,12 @@ h5
 
 #footer
 {
-    display: flex;
     background-color: #F2F2F2;
     padding-left: 45px;
+}
+#footer .container 
+{
+    display: flex;
 }
 
 
